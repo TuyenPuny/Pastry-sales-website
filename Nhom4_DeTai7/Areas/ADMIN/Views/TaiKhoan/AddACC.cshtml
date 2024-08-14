@@ -1,0 +1,96 @@
+﻿@model Nhom4_DeTai7.Areas.ADMIN.Model.NGUOIDUNG
+
+@{
+    ViewBag.Title = "AddACC";
+    Layout = "~/Areas/ADMIN/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("ListACC", "TaiKhoan")">Danh sách tài khoản </a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("AddACC", "TaiKhoan")">Thêm tài khoản</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 style="color:chocolate; text-align:center; padding:40px">THÊM TÀI KHOẢN</h3>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TEN_ND, "Tên người dùng", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.TEN_ND, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TEN_ND, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NGAYSINH, "Ngày sinh", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.NGAYSINH, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                    @Html.ValidationMessageFor(model => model.NGAYSINH, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.GIOITINH, "Giới tính", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownListFor(model => model.GIOITINH, new SelectList(new[] { "Nam", "Nữ", "Khác" }), "--Chọn giới tính--", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.GIOITINH, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EMAIL, "Email", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SDT, "SĐT", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TAIKHOAN, "Tên tài khoản", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.TAIKHOAN, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TAIKHOAN, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MATKHAU, "Mật khẩu", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.MATKHAU, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MATKHAU, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.VAITRO, "Vai trò", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownListFor(model => model.VAITRO, new SelectList(new[] { "Admin", "User" }), "--Chọn vai trò--", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.VAITRO, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    <input type="submit" value="Thêm" class="btn btn-primary" />
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "ListACC")
+        </div>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessage" class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>}

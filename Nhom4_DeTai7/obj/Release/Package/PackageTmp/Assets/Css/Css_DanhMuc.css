@@ -1,0 +1,71 @@
+﻿ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.category-name {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #f7c431;
+}
+
+.category-link:hover .category-name {
+    background: linear-gradient(45deg, #ff6b6b, #f7c431);
+    color: white;
+}
+
+/* Style icons */
+.category-link i,
+.product-link i {
+    margin-right: 10px;
+    color: #f7c431;
+}
+
+/* Hover effect for icons */
+.category-link:hover i,
+.product-link:hover i {
+    color: #ff7e5f;
+}
+
+/* Additional styles for product links */
+.product-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+    .product-link h5 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+
+
+.category-column {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Ensure it takes the full height */
+    overflow-y: auto; /* Allow scrolling within the column */
+    background-color: white; /* Ensure a background color to avoid transparency issues */
+    z-index: 1000; /* Ensure it stays on top if needed */
+    padding-top: 20px; /* Optional: add some padding to the top */
+}
+
+@media (max-width: 767.98px) {
+    .category-column {
+        position: relative;
+        top: unset;
+        height: auto;
+        overflow-y: visible;
+    }
+}

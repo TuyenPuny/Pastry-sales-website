@@ -1,0 +1,124 @@
+﻿@using Nhom4_DeTai7.Models;
+@model SanPham
+
+@{ ViewBag.Title = "chiTietSanPham";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml"; }
+<link href="~/Assets/Css/Css_CTSP.css" rel="stylesheet" />
+<style>
+</style>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- First Row -->
+        <div class="col-12 col-md-6 mb-4">
+            <div class="d-flex justify-content-center">
+                <img src="~/Assets/Img/@Model.hinhanh" alt="@Model.ten_sp" class="product-img" width="500" height="500" />
+            </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+            <h3 style="color:chocolate">@Model.ten_sp</h3>
+            <p>
+                @if (Model.tinhtrang == "Khuyến mãi" && Model.giakm != null)
+                {
+    <span class="price-old size">Giá gốc: @Model.giagoc.ToString("N0") VNĐ</span><br />
+                    <span class="price-discount size">Giá khuyến mãi: @Model.giakm.Value.ToString("N0") VNĐ</span>}
+                else
+                {
+    <span class="size">Giá : @Model.giagoc.ToString("N0") VNĐ</span>}
+            </p>
+            <p class="size">Kích thước: @Model.kichthuoc x @Model.kichthuoc cm</p>
+            <p class="size">Tình trạng: @Model.tinhtrang</p>
+            <p class="size">Hạn sử dụng: @Model.hansudung</p>
+            <p class="size">Số lượng còn: @Model.soluong</p>
+            <div class="quantity-selector">
+                <button class="btn btn-outline-secondary" id="decrement-btn">-</button>
+                <input type="text" id="quantity" value="1" readonly />
+                <button class="btn btn-outline-secondary" id="increment-btn">+</button>
+            </div>
+            <div id="error-message" class="error-message mt-2"></div>
+            <button class="comic-button">Mua ngay!</button>
+            @if (Model.tinhtrang == "Hết bánh")
+            {
+                <button class="comic-button">Hết bánh!!!</button> }
+            else
+            {
+                <button class="comic-button" data-id="@Model.id_sp" onclick="addToCart(this)">Thêm vào giỏ hàng</button>}
+
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-12 mb-4">
+            <p class="size">Thành phần: @Model.thanhphan</p>
+            <p class="size">Mô tả: @Model.mota</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    let maxQuantity = @Model.soluong;
+    let quantity = 1;
+
+    const quantityInput = document.getElementById('quantity');
+    const errorMessage = document.getElementById('error-message');
+    const decrementBtn = document.getElementById('decrement-btn');
+    const incrementBtn = document.getElementById('increment-btn');
+
+    function updateQuantity() {
+        quantityInput.value = quantity;
+        decrementBtn.disabled = quantity <= 1;
+        incrementBtn.disabled = quantity >= maxQuantity;
+        if (quantity > maxQuantity) {
+            errorMessage.textContent = 'Không đủ sản phẩm trong kho';
+        } else {
+            errorMessage.textContent = '';
+        }
+    }
+
+    decrementBtn.addEventListener('click', function () {
+        if (quantity > 1) {
+            quantity--;
+            updateQuantity();
+        }
+    });
+
+    incrementBtn.addEventListener('click', function () {
+        if (quantity < maxQuantity) {
+            quantity++;
+            updateQuantity();
+        } else {
+            errorMessage.textContent = 'Không thể mua nhiều hơn số lượng có sẵn';
+        }
+    });
+
+    updateQuantity();
+</script>
+
+
+<script>
+    function addToCart(element) {
+        var productId = $(element).data("id");
+        var quantity = parseInt($("#quantity").val()); // Lấy số lượng từ ô nhập liệu
+
+        $.ajax({
+            url: '/Cart/AddToCart',
+            type: 'POST',
+            data: {
+                productId: productId,
+                quantity: quantity
+            },
+            success: function (response) {
+                if (response.success) {
+                    alert("Sản phẩm đã được thêm vào giỏ hàng.");
+                    window.location.reload();
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Có lỗi xảy ra.");
+            }
+        });
+    }
+</script>

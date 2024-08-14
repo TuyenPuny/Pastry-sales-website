@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Nhom4_DeTai7.Areas.ADMIN.Model.NGUOIDUNG>
+
+@{
+    ViewBag.Title = "ListACC";
+    Layout = "~/Areas/ADMIN/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("ListACC", "TaiKhoan")">Danh sách tài khoản</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("AddACC", "TaiKhoan")">Thêm tài khoản</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 style="color:chocolate; text-align:center; padding:40px">DANH SÁCH TÀI KHOẢN</h3>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        <form id="accountForm" method="post" action="@Url.Action("DeleteSelected", "TaiKhoan")">
+            <table class="table table-bordered">
+                <thead style="background-color: #ff6a00;">
+                    <tr>
+                        <th>
+                           
+                        </th>
+                        <th style="text-align:center">Tên người dùng</th>
+                        <th style="text-align:center">Ngày sinh</th>
+                        <th style="text-align:center">Giới tính</th>
+                        <th style="text-align:center">Email</th>
+                        <th style="text-align:center">SĐT</th>
+                        <th style="text-align:center">Tài khoản</th>
+                        <th style="text-align:center">Mật khẩu</th>
+                        <th style="text-align:center">Vai trò</th>
+                        <th style="text-align:center"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="text-align:center">
+                                <input type="checkbox" name="selectedIds" value="@item.ID_ND" />
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TEN_ND)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NGAYSINH)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.GIOITINH)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EMAIL)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SDT)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TAIKHOAN)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MATKHAU)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.VAITRO)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Sửa", "Edit", new { ID_ND = item.ID_ND }, new { @class = "btn btn-primary btn-sm" })
+                                @*@Html.ActionLink("Xóa", "DeleteACC", new { ID_ND = item.ID_ND }, new { @class = "btn btn-danger btn-sm", onclick = "return confirm('Bạn chắc chắn muốn xóa tài khoản này?');" })*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-danger" id="deleteSelectedButton" style="margin-left:500px">Xóa các mục đã chọn</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('selectAll').addEventListener('change', function (e) {
+        var checkboxes = document.querySelectorAll('input[name="selectedIds"]');
+        for (var checkbox of checkboxes) {
+            checkbox.checked = e.target.checked;
+        }
+    });
+
+    document.getElementById('deleteSelectedButton').addEventListener('click', function (e) {
+        var selected = document.querySelectorAll('input[name="selectedIds"]:checked');
+        if (selected.length > 0) {
+            var confirmDelete = confirm('Bạn có chắc chắn muốn xóa các mục đã chọn không?');
+            if (!confirmDelete) {
+                e.preventDefault(); 
+            }
+        } else {
+            alert('Vui lòng chọn ít nhất một tài khoản để xóa.');
+            e.preventDefault(); 
+        }
+    });
+
+
+</script>

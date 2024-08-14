@@ -1,0 +1,49 @@
+﻿@model Nhom4_DeTai7.Areas.ADMIN.Model.DANHMUC
+
+@{
+    ViewBag.Title = "EditCategory";
+    Layout = "~/Areas/ADMIN/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("QLDanhMuc", "DanhMuc")">Danh sách danh mục</a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("ThemDanhMuc", "DanhMuc")">Thêm danh mục</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 style="color:chocolate; text-align:center; padding:40px"> CẬP NHẬT THÔNG TIN</h3>
+
+        @using (Html.BeginForm("EditCategory", "DanhMuc", FormMethod.Post))
+        {
+           
+
+            if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div> }
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ID_DM, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(model => model.ID_DM, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.ID_DM, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.TEN_DM, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(model => model.TEN_DM, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TEN_DM, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+                @Html.ActionLink("Hủy", "QLDanhMuc", new { @class = "btn btn-secondary" })
+            </div>}
+    </div>
+</div>

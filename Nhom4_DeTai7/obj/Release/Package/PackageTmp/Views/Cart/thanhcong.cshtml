@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "thanhcong";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<div class="container">
+    <h1 style="text-align: center; padding-top: 50px; color: #d4a762">Đã tiếp nhận phản hồi</h1>
+    <p style="text-align:center; font-size:20px">Chúng tôi sẽ liên lạc với bạn ngay.</p>
+    <a href="/Home/Index"><p id="countdown" style="text-align:center;font-size:10px">Chuyển hướng sau <span id="timer">5</span> giây</p></a>
+</div>
+
+<script>
+    // Thời gian đếm ngược tính bằng giây
+    var timeLeft = 5;
+    var timerElement = document.getElementById('timer');
+
+    function updateCountdown() {
+        if (timeLeft <= 0) {
+            window.location.href = '@Url.Action("Index", "Home")'; // Chuyển hướng về trang chính
+        } else {
+            timerElement.textContent = timeLeft;
+            timeLeft--;
+            setTimeout(updateCountdown, 1000); // Cập nhật mỗi giây
+        }
+    }
+
+    // Bắt đầu đếm ngược
+    updateCountdown();
+</script>

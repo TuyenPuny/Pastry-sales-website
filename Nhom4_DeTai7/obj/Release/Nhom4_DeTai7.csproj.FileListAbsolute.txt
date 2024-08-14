@@ -1,0 +1,494 @@
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.dll.config
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.exe
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.exe.config
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.rsp
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.exe
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.exe.config
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.rsp
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Managed.Core.targets
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.AppContext.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Collections.Immutable.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Console.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Globalization.Calendars.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.Compression.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.FileSystem.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Net.Http.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Net.Sockets.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Reflection.Metadata.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.ValueTuple.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XmlDocument.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XPath.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.exe
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.exe.config
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.rsp
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\VBCSCompiler.exe
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\VBCSCompiler.exe.config
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Web.Infrastructure.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Helpers.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Mvc.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Razor.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Deployment.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Razor.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Razor.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Deployment.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Razor.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Helpers.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Mvc.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.CoreCompileInputs.cache
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.CopyComplete
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.AssemblyReference.cache
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.SqlServer.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.SqlServer.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.Migrations.InitialCreate.resources
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.Migrations.InitialCreate1.resources
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.GenerateResource.cache
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Dapper.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Dapper.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DiaSymReader.Native.x86.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DiaSymReader.Native.amd64.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Facebook.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Antiforgery.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cors.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Localization.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Language.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.Razor.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyModel.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Composite.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.ObjectPool.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Options.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Primitives.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.WebEncoders.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Net.Http.Headers.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Win32.Registry.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.Bson.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Buffers.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.CodeDom.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Collections.Immutable.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.ComponentModel.Annotations.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Diagnostics.DiagnosticSource.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Memory.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Numerics.Vectors.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Reflection.Metadata.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.AccessControl.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Cryptography.Xml.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Permissions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Principal.Windows.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encoding.CodePages.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encodings.Web.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Threading.Tasks.Extensions.dll
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Facebook.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Antiforgery.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cors.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Localization.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Language.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.pdb
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.Razor.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Composite.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.ObjectPool.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Options.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Primitives.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.WebEncoders.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Net.Http.Headers.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.Bson.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Buffers.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.CodeDom.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Collections.Immutable.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Diagnostics.DiagnosticSource.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Memory.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Numerics.Vectors.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Reflection.Metadata.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encodings.Web.xml
+E:\LTW\DoAn\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Threading.Tasks.Extensions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DiaSymReader.Native.x86.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DiaSymReader.Native.amd64.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.dll.config
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Nhom4_DeTai7.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.exe
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.exe.config
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csc.rsp
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.exe
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.exe.config
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\csi.rsp
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Managed.Core.targets
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.AppContext.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Collections.Immutable.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Console.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Globalization.Calendars.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.Compression.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.FileSystem.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Net.Http.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Net.Sockets.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Reflection.Metadata.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.ValueTuple.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XmlDocument.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XPath.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.exe
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.exe.config
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\vbc.rsp
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\VBCSCompiler.exe
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\roslyn\VBCSCompiler.exe.config
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Dapper.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.SqlServer.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Facebook.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Antiforgery.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cors.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Localization.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Language.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.Razor.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyModel.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Composite.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.ObjectPool.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Options.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Primitives.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.WebEncoders.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Net.Http.Headers.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Web.Infrastructure.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Win32.Registry.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.Bson.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Buffers.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.CodeDom.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Collections.Immutable.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.ComponentModel.Annotations.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Diagnostics.DiagnosticSource.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Memory.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Numerics.Vectors.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Reflection.Metadata.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.AccessControl.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Cryptography.Xml.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Permissions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Security.Principal.Windows.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encoding.CodePages.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encodings.Web.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Threading.Tasks.Extensions.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Helpers.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Mvc.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Razor.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Deployment.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Razor.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Dapper.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\EntityFramework.SqlServer.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Facebook.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Auth.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Google.Apis.Core.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Antiforgery.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cors.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Localization.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.RazorPages.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Language.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.pdb
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.CSharp.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeAnalysis.Razor.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileProviders.Composite.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Localization.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.ObjectPool.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Options.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.Primitives.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Extensions.WebEncoders.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.Net.Http.Headers.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Newtonsoft.Json.Bson.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Buffers.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.CodeDom.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Collections.Immutable.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Diagnostics.DiagnosticSource.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Memory.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Numerics.Vectors.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Reflection.Metadata.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Text.Encodings.Web.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Threading.Tasks.Extensions.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Razor.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Deployment.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Webpages.Razor.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Helpers.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\System.Web.Mvc.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.AssemblyReference.cache
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.Migrations.InitialCreate.resources
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.Migrations.InitialCreate1.resources
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.GenerateResource.cache
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.CoreCompileInputs.cache
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.csproj.CopyComplete
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.dll
+E:\hk3\LTW Hoàn chỉnh\Nhom4_DeTai7\Nhom4_DeTai7\obj\Release\Nhom4_DeTai7.pdb

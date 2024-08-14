@@ -1,0 +1,165 @@
+﻿
+@{
+    ViewBag.Title = "Thanhtoann";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+
+<div class="container center-block">
+    <div class="container">
+        <header class="header">
+            <p class="text-center text-chocolate py-3 " style="font-size: 30px">Thanh toán</p>
+        </header>
+
+        <form class="form" method="POST" action="/Cart/Thanhtoann">
+            <div class="card p-3">
+                <div class="form-group" style="padding:4px">
+                    <label for="name">Họ tên:</label>
+                    <input type="text" class="form-control" id="name" value="@ViewBag.UserName" readonly required>
+                </div>
+                <div class="form-group" style="padding:4px">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="number" class="form-control" id="phone" maxlength="10" pattern="[0-9]{10}" required value="@ViewBag.SDT">
+                </div>
+
+
+                <div class="form-group" style="padding:4px">
+                    <label for="phone">Chọn tỉnh thành:</label>
+                    <select class="form-control" id="tinh" name="tinh" title="Chọn Tỉnh Thành" required>
+                        <option value="0">@ViewBag.Tinh</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding:4px">
+                    <label for="phone">Chọn quận/ huyện</label>
+                    <select class="form-control" id="quan" name="quan" title="Chọn Quận Huyện" required>
+                        <option value="0">@ViewBag.Quan</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding:4px">
+                    <label for="phone">Chọn phường/ xã</label>
+                    <select class="form-control" id="phuong" name="phuong" title="Chọn Phường Xã" required>
+                        <option value="0">@ViewBag.Phuong</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding:4px">
+                    <label for="address">Số nhà, tên đường</label>
+                    <textarea class="form-control" id="address" rows="3" required>@ViewBag.DiaChiView</textarea>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        //Lấy tỉnh thành
+                        $.getJSON('https://esgoo.net/api-tinhthanh/1/0.htm', function (data_tinh) {
+                            if (data_tinh.error == 0) {
+                                $.each(data_tinh.data, function (key_tinh, val_tinh) {
+                                    $("#tinh").append('<option value="' + val_tinh.id + '">' + val_tinh.full_name + '</option>');
+                                });
+                                $("#tinh").change(function (e) {
+                                    var idtinh = $(this).val();
+                                    //Lấy quận huyện
+                                    $.getJSON('https://esgoo.net/api-tinhthanh/2/' + idtinh + '.htm', function (data_quan) {
+                                        if (data_quan.error == 0) {
+                                            $("#quan").html('<option value="0">Quận Huyện</option>');
+                                            $("#phuong").html('<option value="0">Phường Xã</option>');
+                                            $.each(data_quan.data, function (key_quan, val_quan) {
+                                                $("#quan").append('<option value="' + val_quan.id + '">' + val_quan.full_name + '</option>');
+                                            });
+                                            //Lấy phường xã
+                                            $("#quan").change(function (e) {
+                                                var idquan = $(this).val();
+                                                $.getJSON('https://esgoo.net/api-tinhthanh/3/' + idquan + '.htm', function (data_phuong) {
+                                                    if (data_phuong.error == 0) {
+                                                        $("#phuong").html('<option value="0">Phường Xã</option>');
+                                                        $.each(data_phuong.data, function (key_phuong, val_phuong) {
+                                                            $("#phuong").append('<option value="' + val_phuong.id + '">' + val_phuong.full_name + '</option>');
+                                                        });
+                                                    }
+                                                });
+                                            });
+
+                                        }
+                                    });
+                                });
+
+                            }
+                        });
+                    });
+                </script>
+
+            </div>
+
+
+
+
+            <fieldset class="py-5">
+                <legend>Phương thức thanh toán</legend>
+
+                <div class="form__radios">
+                    <div class="form__radio">
+                        <label for="visa">
+                            <i class="fa fa-credit-card"></i>Thẻ ngân hàng
+                        </label>
+                        <input class="check" checked id="visa" name="payment-method" type="radio" value="Visa" />
+                    </div>
+
+                    <div class="form__radio">
+                        <label for="paypal">
+                            <i class="fa fa-truck"></i>Thanh toán khi nhận hàng
+                        </label>
+                        <input class="check" id="paypal" name="payment-method" type="radio" />
+                    </div>
+
+                    <div class="form__radio">
+                        <label for="mastercard">
+                            <i class="fa fa-mobile"></i>Ví điện tử Momo
+                        </label>
+                        <input class="check" id="mastercard" name="payment-method" type="radio" />
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <div>
+                <h2>Thanh toán</h2>
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Tổng Tiền </td>
+                            <td class="text-end">@ViewBag.TotalAmount</td>
+                        </tr>
+                        <tr>
+                            <td>Phí Vận Chuyển</td>
+                            <td class="text-end">Miễn phí</td>
+                        </tr>
+                        <tr>
+                            <td>Giảm giá</td>
+                            <td class="text-end">0 VNĐ</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Thành tiền</td>
+                            <td class="text-end">@ViewBag.FinalAmount</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div>
+                <button class="btn btn-primary btn-block" type="submit">
+                    <i class="fa fa-shopping-bag"></i>Buy Now
+                </button>
+            </div>
+
+            <!-- Các trường thông tin khác -->
+            <input type="hidden" name="finalAmount" value="@ViewBag.FinalAmount" />
+            <input type="hidden" name="name" value="@ViewBag.UserName" />
+            <input type="hidden" name="phone" value="@ViewBag.SDT" />
+            <input type="hidden" name="paymentMethod" value="Visa" />
+
+        </form>
+
+    </div>
+
+</div>
+

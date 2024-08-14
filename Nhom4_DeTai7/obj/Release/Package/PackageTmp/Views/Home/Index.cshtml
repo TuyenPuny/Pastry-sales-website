@@ -1,0 +1,195 @@
+﻿@using Nhom4_DeTai7.Models;
+@model SanPham
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<link href="~/Assets/Css/Css_IndexHomee.css" rel="stylesheet" />
+
+<!-- Start Banner Hero -->
+<div id="template-mo-zay-hero-carousel" class="carousel slide full-width-carousel" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/Assets/Img/Banner1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <h1 class="h1 text-success"><b>ZoTri</b> Bakery</h1>
+                            <h3 class="h2">Bánh sinh nhật Cô bé vui tươi</h3>
+                            <p>
+                                Một chiếc bánh sinh nhật đáng yêu, rực rỡ với tông màu trắng, hồng và đỏ.
+                                Được trang trí bằng những phụ kiện ngộ nghĩnh như trái cherry, lá và hình ảnh một cô bé đáng yêu.
+                                Tạo không gian vui tươi và rộn ràng, chắc chắn sẽ mang đến niềm vui cho người thưởng thức.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/Assets/Img/Banner2.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left">
+                            <h1 class="h1 text-success"><b>ZoTri</b> Bakery</h1>
+                            <h3 class="h2">Donut Ngũ Sắc</h3>
+                            <p>
+                                Những chiếc donut ngọt ngào với vẻ ngoài rực rỡ sắc màu.
+                                Được trang trí bằng những hạt đường đủ màu sắc, tạo nên một hình ảnh vô cùng bắt mắt và hấp dẫn.
+                                Vừa ngon miệng, vừa đẹp mắt, chắc chắn sẽ mang lại những trải nghiệm ăn uống thú vị cho người thưởng thức.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/Assets/Img/Banner3.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left">
+                            <h1 class="h1 text-success"><b>ZoTri</b> Bakery</h1>
+                            <h3 class="h2">Bánh bông lan trứng muối</h3>
+                            <p>
+                                Bánh bông lan trứng muối với lớp vỏ vàng giòn rụm và nhân trứng muối mặn ngọt.
+                                Thêm những miếng cam tươi làm tăng thêm sự hấp dẫn của món bánh độc đáo này.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+    </a>
+</div>
+
+<!-- End Banner Hero -->
+<!-- Menu Start -->
+<!-- Sản phẩm mới cập nhật -->
+<div class="container-fluid menu bg-light py-6 my-6" style="margin-top:50px;">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Sản phẩm</small>
+            <h1 class="display-5 mb-5">Sản phẩm mới cập nhật</h1>
+        </div>
+        <div class="tab-class text-center">
+            <div class="tab-content">
+                <div id="tab-6" class="tab-pane fade show p-0 active">
+                    <div class="row">
+                        @foreach (var s in Model.danhsachMoiRaLo)
+                        {
+                            <div class="col-lg-3 col-md-6 col-sm-12 bounceInUp" data-wow-delay="0.1s">
+                                
+                                    <div class="menu-itemNew d-flex flex-column align-items-center p-3 position-relative" style="height: 420px;">
+                                        <a href="/SanPham/chiTietSanPham/@s.id_sp" style="text-decoration: none; color:chocolate">
+                                            <div class="position-relative">
+                                                <img class="img-fluid product-img" src="~/Assets/Img/@s.hinhanh" alt="">
+                                                <span class="position-absolute top-0 end-0 badge bg-primary">@s.tinhtrang</span>
+                                            </div>
+                                        </a>
+                                            <div class="w-100 d-flex flex-column text-center py-3 flex-grow-1">
+                                                <h5 class="text-truncate">@s.ten_sp</h5>
+                                                <h4 class="text-primary">@s.giagoc.ToString("N0") vnđ</h4>
+                                            </div>
+                                            <button class="btn btn-gradient mt-2 position-absolute bottom-0 mb-2" style="width:270px" data-id="@s.id_sp" data-quantity="1" onclick="addToCart(this)">
+                                                <i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng
+                                            </button>
+</div>
+                                
+
+                            </div>}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sản phẩm khuyến mãi -->
+<div class="container-fluid menu bg-light py-6 my-6" style="margin-top:50px; margin-bottom:50px;">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <h1 class="display-5 mb-5">Sản phẩm đang khuyến mãi</h1>
+        </div>
+        <div class="tab-class text-center">
+            <div class="tab-content">
+                <div id="tab-7" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        @foreach (var s in Model.danhsachKhuyenMai)
+                        {
+                            <div class="col-lg-6 bounceInUp" data-wow-delay="0.1s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle" src="~/Assets/Img/@s.hinhanh" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>@s.ten_sp</h4>
+                                            <h5 class="text-primary text-decoration-line-through">@s.giagoc.ToString("N0") vnđ</h5>
+                                        </div>
+                                        <div class="d-flex justify-content-between pb-2 mb-2 add-to-cart">
+                                            <p class="mb-0" style="font-size:20px">@s.tinhtrang</p>
+                                            <h4 class="text-danger" style="text-align: right">
+                                                @(s.giakm.HasValue ? s.giakm.Value.ToString("N0") : "Chưa có giá khuyến mãi") vnđ
+                                            </h4>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Menu End -->
+<script>
+    function addToCart(element) {
+        // Lưu vị trí cuộn hiện tại
+        sessionStorage.setItem('scrollTop', window.scrollY);
+
+        var productId = $(element).data("id");
+        var quantity = $(element).data("quantity");
+
+        $.ajax({
+            url: '/Cart/AddToCart',
+            type: 'POST',
+            data: {
+                productId: productId,
+                quantity: quantity
+            },
+            success: function (response) {
+                if (response.success) {
+                    alert("Sản phẩm đã được thêm vào giỏ hàng.");
+                    window.location.reload();
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Có lỗi xảy ra.");
+            }
+        });
+    }
+</script>

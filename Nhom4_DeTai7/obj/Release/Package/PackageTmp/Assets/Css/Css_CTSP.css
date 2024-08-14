@@ -1,0 +1,89 @@
+﻿.product-img {
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+    .product-img:hover {
+        transform: scale(1.1);
+    }
+
+.price-old {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.price-discount {
+    color: #f00;
+}
+
+.size {
+    font-size: 22px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 127px;
+}
+
+    .quantity-selector button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border: none;
+        background-color: #f8f9fa;
+    }
+
+    .quantity-selector input {
+        text-align: center;
+        width: 30px;
+        margin: 0;
+        font-size: 18px;
+        border: none;
+        outline: none;
+    }
+
+    .quantity-selector button:disabled {
+        background-color: #e9ecef;
+        cursor: not-allowed;
+    }
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 20px;
+}
+
+    .comic-button:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+    }
+
+    .comic-button:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+    }

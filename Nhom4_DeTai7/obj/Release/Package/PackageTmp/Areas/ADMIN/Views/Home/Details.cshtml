@@ -1,0 +1,79 @@
+﻿@model Nhom4_DeTai7.Areas.ADMIN.Model.SANPHAM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/ADMIN/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">Danh sách sản phẩm </a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("ThemDanhMuc", "Home")">Thêm sản phẩm</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div>
+            <h3 style="color:chocolate; text-align:center; padding:40px"> CHI TIẾT SẢN PHẨM</h3>
+            <hr />
+            <table class="table">
+                <tbody>
+                   <tr>
+                       <td rowspan="11" style="padding: 5px;width:350px"> @*@Html.DisplayFor(model => model.HINHANH)*@
+                           <img src="~/Assets/Img/@Html.DisplayFor(model => model.HINHANH)" style="max-width: 300px; max-height: 300px;" />
+                       </td>
+                   </tr>
+                    <tr>
+                        <td>Tên sản phẩm</td>
+                        <td>@Html.DisplayFor(model => model.TEN_SP)</td>
+                    </tr>
+                    <tr>
+                        <td>Giá gốc </td>
+                        <td>@Html.DisplayFor(model => model.GIAGOC)</td>
+                    </tr>
+                    <tr>
+                        <td>Giá khuyến mãi</td>
+                        <td>@Html.DisplayFor(model => model.GIAKM)</td>
+                    </tr>
+                    <tr>
+                        <td>Kích thước</td>
+                        <td>@Html.DisplayFor(model => model.KICHTHUOC)</td>
+                    </tr>
+                    <tr>
+                        <td>Tình trạng</td>
+                        <td>@Html.DisplayFor(model => model.TINHTRANG)</td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng</td>
+                        <td>@Html.DisplayFor(model => model.SOLUONG)</td>
+                    </tr>
+                    <tr>
+                        <td>Hạn sử dụng</td>
+                        <td>@Html.DisplayFor(model => model.HSD)</td>
+                    </tr>
+                    <tr>
+                        <td>Thành phần </td>
+                        <td>@Html.DisplayFor(model => model.THANHPHAN)</td>
+                    </tr>
+                    <tr>
+                        <td>Mô tả</td>
+                        <td>@Html.DisplayFor(model => model.MOTA)</td>
+                    </tr>
+                    <tr>
+                        <td>Mã danh mục</td>
+                        <td>@Html.DisplayFor(model => model.ID_DM)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>
+            @Html.ActionLink("Sửa", "EditSP", new { ID_SP = Model.ID_SP }, new { @class = "btn btn-primary btn-md" })
+            @Html.ActionLink("Back to List", "Index", new { @class = "btn btn-primary btn-md" })
+        </p>
+    </div>
+</div>

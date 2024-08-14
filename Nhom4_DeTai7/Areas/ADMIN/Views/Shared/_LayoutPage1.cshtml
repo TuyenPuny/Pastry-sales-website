@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/assets/css/paper-dashboard.css" rel="stylesheet" />
+    <link href="~/Areas/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Areas/assets/css/themify-icons.css" rel="stylesheet" />
+    <script src="~/Areas/assets/js/jquery-1.10.2.js"></script>
+    <script src="~/Areas/assets/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="/" class="simple-text">
+                        BAKERY ZOTRI
+                    </a>
+                    <i>Welcom, @Session["Login"]</i>
+                </div>
+
+                <ul class="nav">
+
+                    <li @if (ViewContext.RouteData.Values["Controller"].ToString() == "TaiKhoan" 
+                        && (ViewContext.RouteData.Values["Action"].ToString() == "ListACC" || 
+                        ViewContext.RouteData.Values["Action"].ToString() == "AddACC" || 
+                        ViewContext.RouteData.Values["Action"].ToString() == "Edit")) { <text> class="active" </text> }>
+                        <a href="@Url.Action("ListACC", "TaiKhoan")">
+                            <i class="ti-panel"></i>
+                            <p>Quản lí tài khoản</p>
+                        </a>
+                    </li>
+
+
+                    <li @if (ViewContext.RouteData.Values["Controller"].ToString() == "DanhMuc" && (ViewContext.RouteData.Values["Action"].ToString() == "QLDanhMuc" || ViewContext.RouteData.Values["Action"].ToString() == "EditCategory" || ViewContext.RouteData.Values["Action"].ToString() == "ThemDanhMuc")) { <text> class="active" </text> }>
+                        <a href="@Url.Action("QLDanhMuc", "DanhMuc")">
+                            <i class="ti-user"></i>
+                            <p>Quản lí danh mục</p>
+                        </a>
+                    </li>
+
+                    <li @if (ViewContext.RouteData.Values["Controller"].ToString() == "Home" && (ViewContext.RouteData.Values["Action"].ToString() == "Index" || ViewContext.RouteData.Values["Action"].ToString() == "CreateSP" || ViewContext.RouteData.Values["Action"].ToString() == "Details" || ViewContext.RouteData.Values["Action"].ToString() == "EditSP")) { <text> class="active" </text> }>
+                        <a href="@Url.Action("Index", "Home")">
+                            <i class="ti-shopping-cart"></i>
+                            <p>Quản lí sản phẩm</p>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+           
+        </div>
+        @RenderBody()
+        
+    </div>
+</body>
+</html>

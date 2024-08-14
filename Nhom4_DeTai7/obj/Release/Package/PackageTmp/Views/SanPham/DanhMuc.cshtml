@@ -1,0 +1,173 @@
+﻿@using Nhom4_DeTai7.Models;
+@model SanPham
+
+
+@{
+    ViewBag.Title = "DanhMuc";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<link href="~/Assets/Css/Css_DanhMuc.css" rel="stylesheet" />
+<link href="~/Assets/Css/Css_SanPham.css" rel="stylesheet" />
+<!-- Nút Tìm kiếm -->
+<div class="navbar-nav ms-auto">
+    <div class="search">
+        <div class="search-container">
+            <form method="get" action="/SanPham/SanPham">
+                <input class="search-input" type="text" name="ten" placeholder="Nhập tên sản phẩm">
+                <button type="submit" class="search__icon">
+                    <svg viewBox="0 0 24 24" class="search__icon">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2 col-12 category-column">
+        <h4 style="color: #ff6b6b">Danh Mục</h4>
+        <ul>
+            @{ var danhmuc = ViewData["dm"] as DanhMuc;
+                if (danhmuc != null)
+                {
+                    foreach (var dm in danhmuc.danhsachDM)
+                    {
+                        <li>
+                            <a href="/SanPham/DanhMuc/@dm.id_dm" class="category-link">
+                                <i class="fas fa-tag"></i>
+                                <h5 class="category-name">@dm.tendm</h5>
+                            </a>
+                        </li>
+                    }
+                }
+                else
+                {
+                    <h5 style="font-size:20px">Danh mục không có dữ liệu</h5>
+                } }
+        </ul>
+        <h4 style="color: #ff6b6b">Sản phẩm</h4>
+        <ul>
+            <li>
+                <a href="/SanPham/KhuyenMai" class="product-link">
+                    <i class="fas fa-gift"></i>
+                    <h5 class="category-name">Khuyến mãi</h5>
+                </a>
+            </li>
+            <li>
+                <a href="/SanPham/MoiRaLo" class="product-link">
+                    <i class="fas fa-star"></i>
+                    <h5 class="category-name">Sản phẩm mới</h5>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="col-md-10 col-12">
+        @* Hiển thị Sản Phẩm *@
+        <div class="tab-class text-center">
+            <div class="tab-content">
+                <div id="tab-6" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        @foreach (var s in Model.danhsachSP_ten)
+                        {
+                            <div class="col-product">
+                                <a href="/SanPham/chiTietSanPham/@s.id_sp">
+                                    <div class="el-wrapper">
+                                        <div class="box-up">
+                                            <img class="imgSP" src="~/Assets/Img/@s.hinhanh" alt="">
+                                            <div class="img-info">
+                                                <div class="info-inner">
+                                                    <span class="p-name" title="@s.ten_sp">@s.ten_sp</span>
+                                                    <span class="p-company p-name">@s.thanhphan</span>
+                                                </div>
+                                                <div class="a-size">Kích thước đường kính: <span class="size">@s.kichthuoc cm</span></div>
+                                            </div>
+                                            @if (s.giakm != null)
+                                            {
+                                                <div class="discount-tag">Khuyến mãi</div>}
+                                            @if (s.tinhtrang == "Hết bánh")
+                                            {
+                                                <div class="discount-tagHB">Hết Bánh</div>
+                                            }
+                                        </div>
+                                        <div class="box-down">
+                                            <div class="h-bg">
+                                                <div class="h-bg-inner"></div>
+                                            </div>
+                                            @if (s.tinhtrang == "Hết bánh")
+                                            {
+                                                <a class="cart" href="#">
+                                                    <span class="price @(s.giakm != null ? "with-discount" : "")">@s.giagoc.ToString("N0") vnđ</span>
+                                                    @if (s.giakm != null)
+                                                    {
+                                                        <span class="pricekm">
+                                                            @(s.giakm.HasValue ? s.giakm.Value.ToString("N0") : "Chưa có giá khuyến mãi") vnđ
+                                                        </span>}
+
+                                                    <span class="add-to-cart" data-id="@s.id_sp" data-quantity="1">
+                                                        <i class="fas fa-shopping-cart icon-white"></i>
+                                                        <span class="txt">Sản phẩm hiện đang HẾT HÀNG</span>
+                                                    </span>
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <a class="cart" href="#">
+                                                    <span class="price @(s.giakm != null ? "with-discount" : "")">@s.giagoc.ToString("N0") vnđ</span>
+                                                    @if (s.giakm != null)
+                                                    {
+                                                        <span class="pricekm">
+                                                            @(s.giakm.HasValue ? s.giakm.Value.ToString("N0") : "Chưa có giá khuyến mãi") vnđ
+                                                        </span>}
+                                                    <span class="add-to-cart" data-id="@s.id_sp" data-quantity="1" onclick="addToCart(this)">
+                                                        <i class="fas fa-shopping-cart icon-white"></i>
+                                                        <span class="txt">Thêm vào giỏ hàng</span>
+                                                    </span>
+                                                </a>
+                                            }
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function addToCart(element) {
+        // Lưu vị trí cuộn hiện tại
+        sessionStorage.setItem('scrollTop', window.scrollY);
+
+        var productId = $(element).data("id");
+        var quantity = $(element).data("quantity");
+
+        $.ajax({
+            url: '/Cart/AddToCart',
+            type: 'POST',
+            data: {
+                productId: productId,
+                quantity: quantity
+            },
+            success: function (response) {
+                if (response.success) {
+                    alert("Sản phẩm đã được thêm vào giỏ hàng.");
+                    window.location.reload();
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Có lỗi xảy ra.");
+            }
+        });
+    }
+</script>

@@ -1,0 +1,207 @@
+﻿@model IEnumerable<Nhom4_DeTai7.Models.CartItemViewModel>
+
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+    var cartItems = ViewBag.CartItems as IEnumerable<Nhom4_DeTai7.Models.CartItemViewModel>;
+    var totalAmount = ViewBag.TotalAmount as int?;
+}
+<link href="~/Assets/Css/Css_Cart.css" rel="stylesheet" />
+
+@if (Model != null && Model.Any())
+{
+    <section class="h-100 gradient-custom">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center my-4">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="mb-0">Giỏ hàng của tôi</h5>
+                        </div>
+                        <div class="card-body">
+                            <!-- Single item -->
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <!-- Image -->
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                            <img src="~/Assets/Img/@item.HinhAnh" alt="@item.TenSP" width="100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Data -->
+                                        <p><strong>@item.TenSP</strong></p>
+                                        <!-- Price -->
+                                        <p class="text-start text-md-center">
+                                            @if (item.GiaKM > 0)
+                                            {
+                                                <strong id="price_@item.ID_GH" style="margin-right: 190px">
+                                                    @item.GiaKM.ToString("N0") VNĐ/Cái
+                                                </strong> }
+                                            else
+                                            {
+                                                <strong id="price_@item.ID_GH" style="margin-right: 190px">
+                                                    @item.GiaGoc.ToString("N0") VNĐ/Cái
+                                                </strong>}
+                                        </p>
+                                        <!-- Price -->
+                                        <form method="post" action="/Cart/Delete">
+                                            <input type="hidden" name="idGH" value="@item.ID_GH" />
+                                            <button type="submit" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-tooltip-init title="Remove item">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
+                                        <!-- Data -->
+                                    </div>
+
+                                    <!-- Quality -->
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <form method="post" action="/Cart/UpdateQuantity">
+                                            <input type="hidden" name="idGH" value="@item.ID_GH" />
+                                            <div class="d-flex mb-4" style="max-width: 300px">
+
+                                                <button type="button" class="btn btn-primary px-3 me-2"
+                                                        id="decrement-btn_@item.ID_GH" onclick="changeQuantity(@item.ID_GH, -1)" style="height: 40px; width: 46px;">
+                                                    <i class="fas fa-minus"></i>
+                                                </button>
+
+                                                <div data-mdb-input-init class="form-outline">
+                                                    <input id="quantity_@item.ID_GH" name="qualityyyy" value="@item.SOLUONG" type="number" class="form-control" style="width:70px;" min="1" data-max-quantity="@item.SLTON" />
+                                                    <label class="form-label" for="quantity_@item.ID_GH"></label>
+                                                </div>
+                                                <button type="button" class="btn btn-primary px-3 ms-2"
+                                                        id="increment-btn_@item.ID_GH" onclick="changeQuantity(@item.ID_GH, 1)" style="height: 40px; width: 46px;">
+                                                    <i class="fas fa-plus"></i>
+                                                </button>
+                                            </div>
+                                            <button type="submit" class="btn btn-success btn-sm">Cập nhật</button>
+                                        </form>
+                                        <!-- Quality -->
+                                        <!-- Checkbox -->
+                                        <div class="col-12 d-flex justify-content-end" style="margin-top: -110px; padding-bottom: 115px;">
+                                            <label class="custom-checkbox">
+                                                <input type="checkbox" name="dummy" value="@item.ID_GH" data-soluong="@item.SOLUONG" data-price="@(item.GiaKM > 0 ? item.GiaKM : item.GiaGoc)" id="check_@item.ID_GH" />
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <!-- Checkbox -->
+                                    </div>}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="mb-0">Tính tiền</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                    Tổng
+                                    <span id="totalAmount">0</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Vận chuyển
+                                    <span>Miễn Phí</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                    <div>
+                                        <strong>Thành Tiền</strong>
+                                        <strong>
+                                            <p class="mb-0">(including VAT)</p>
+                                        </strong>
+                                    </div>
+                                    <span><strong id="finalAmount">0</strong></span>
+                                </li>
+                            </ul>
+
+                            <button id="checkout-btn" type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">
+                                Tiến hành Thanh toán
+                            </button>
+
+                            <script>
+                                document.getElementById('checkout-btn').addEventListener('click', function () {
+                                    var totalAmount = document.getElementById('totalAmount').textContent;
+                                    var finalAmount = document.getElementById('finalAmount').textContent;
+
+                                    // Chuyển hướng đến trang thanh toán với các tham số
+                                    window.location.href = `/Cart/Thanhtoann?totalAmount=${encodeURIComponent(totalAmount)}&finalAmount=${encodeURIComponent(finalAmount)}`;
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> }
+else
+{
+    <h1> Giỏ hàng của bạn hiện đang trống. </h1>}
+
+<script>
+    function updateTotal() {
+        let totalAmount = 0;
+        document.querySelectorAll('.custom-checkbox input:checked').forEach(checkbox => {
+            let itemId = checkbox.value;
+            let quantity = document.querySelector(`input[id='quantity_${itemId}']`).value;
+            let price = parseFloat(checkbox.getAttribute('data-price'));
+            totalAmount += quantity * price;
+        });
+        document.getElementById('finalAmount').textContent = totalAmount.toLocaleString();
+        document.getElementById('totalAmount').textContent = totalAmount.toLocaleString();
+    }
+
+
+    updateTotal();
+
+
+    document.querySelectorAll('.custom-checkbox input').forEach(checkbox => {
+        checkbox.addEventListener('change', updateTotal);
+    });
+
+
+    document.querySelectorAll('input[type=number]').forEach(input => {
+        input.addEventListener('change', updateTotal);
+    });
+</script>
+
+<script>
+    // Hàm thay đổi số lượng sản phẩm
+    function changeQuantity(idGH, change) {
+        var quantityInput = document.getElementById('quantity_' + idGH);
+        var quantity = parseInt(quantityInput.value);
+        var maxQuantity = parseInt(quantityInput.dataset.maxQuantity);
+
+        // Cập nhật số lượng
+        quantity += change;
+        if (quantity < 1) {
+            quantity = 1;
+        } else if (quantity > maxQuantity) {
+            quantity = maxQuantity;
+        }
+        quantityInput.value = quantity;
+
+        // Điều chỉnh trạng thái của nút + và -
+        document.getElementById('increment-btn_' + idGH).disabled = quantity >= maxQuantity;
+        document.getElementById('decrement-btn_' + idGH).disabled = quantity <= 1;
+    }
+
+    // Đảm bảo rằng trạng thái của các nút được cập nhật khi tải trang
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('input[name="qualityyyy"]').forEach(function (input) {
+            var idGH = input.id.split('_')[1];
+            var quantity = parseInt(input.value);
+            var maxQuantity = parseInt(input.dataset.maxQuantity);
+
+            document.getElementById('increment-btn_' + idGH).disabled = quantity >= maxQuantity;
+            document.getElementById('decrement-btn_' + idGH).disabled = quantity <= 1;
+        });
+    });
+</script>

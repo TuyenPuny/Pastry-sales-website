@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Nhom4_DeTai7.Areas.ADMIN.Model.SANPHAM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ADMIN/Views/Shared/_LayoutPage1.cshtml";
+}
+<style>
+    tr{
+        font-size:20px;
+    }
+    td{
+        font-size:18px;
+    }
+</style>
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">Danh sách sản phẩm </a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("CreateSP", "Home")">Thêm sản phẩm</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 style="color:chocolate; text-align:center; padding:40px"> DANH SÁCH SẢN PHẨM</h3>
+        <table class="table table-bordered">
+            <thead style="background-color: #ff6a00;">
+                <tr>
+                    <th>Mã sản phẩm </th>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID_SP)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TEN_SP)
+                    </td>
+                    <td>
+                        @*@Html.DisplayFor(modelItem => item.HINHANH)*@
+                        <img src="~/Assets/Img/@item.HINHANH" style="width:80px;height:80px" />
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Sửa", "EditSP", new { ID_SP = item.ID_SP }, new { @class = "btn btn-primary btn-md" })|
+                        @Html.ActionLink("Chi tiết", "Details", new { ID_SP = item.ID_SP }, new { @class = "btn btn-info btn-md" }) |
+                        @Html.ActionLink("Xóa", "Delete", new { ID_SP = item.ID_SP }, new { @class = "btn btn-danger btn-md", onclick = "return confirm('Bạn chắc chắn muốn xóa sản phẩm này?');" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

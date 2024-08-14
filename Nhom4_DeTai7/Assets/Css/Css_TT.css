@@ -1,0 +1,70 @@
+﻿fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+legend {
+    font-weight: 600;
+    margin-block-end: 0.5em;
+    padding: 0;
+}
+
+.check {
+    border: 0;
+    color: inherit;
+    font: inherit;
+}
+
+    .check[type="radio"] {
+        accent-color: var(--color-primary);
+    }
+
+table {
+    border-collapse: collapse;
+    inline-size: 100%;
+}
+
+tbody {
+    color: #b4b4b4;
+}
+
+td {
+    padding-block: 0.125em;
+}
+
+tfoot {
+    border-top: 1px solid #b4b4b4;
+    font-weight: 600;
+}
+
+.align {
+    display: grid;
+    place-items: center;
+}
+
+
+
+.form__radios {
+    display: grid;
+    gap: 1em;
+}
+
+.form__radio {
+    align-items: center;
+    background-color: #fefdfe;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    display: flex;
+    padding: 1em;
+}
+
+    .form__radio label {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        gap: 1em;
+    }
+}
